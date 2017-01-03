@@ -2,8 +2,8 @@
 
 [CENTER][IMG]http://i.imgur.com/XlAWVFy.png[/IMG]
 
-[SIZE=2]WoW Patch 7.0[/SIZE]
-[SIZE=1]Guide Version 1.0[/SIZE]
+[SIZE=2]WoW Patch 7.1.5[/SIZE]
+[SIZE=1]Guide Version 1.1.0[/SIZE]
 [/CENTER]
 
 [indent]
@@ -27,7 +27,7 @@
   [*][jumpto="gearing"]Gearing/Gemming[/jumpto]
   [*][jumpto="artifact"]Artifact[/jumpto]
   [*][jumpto="addons"]Useful Addons[/jumpto]
-  [*][jumpto="patch-changes"]TL;DR Patch Changes[/jumpto]
+  [*][jumpto="patch-changes"]TL;DR Patch 7.1.5 Changes[/jumpto]
   [*][jumpto="afterword"]Afterword[/jumpto]
   [*][jumpto="changelog"]Changelog[/jumpto]
   [/LIST]
@@ -95,7 +95,7 @@ Conflag's recharge rate is reduced in the same way as Immolate. With X Haste, yo
 
 [url=http://www.wowdb.com/spells/116858-chaos-bolt]Chaos Bolt[/url]
 [indent]
-Chaos Bolt is your single-target/cleave Soul Shard spender. Chaos Bolt costs 2 Soul Shards to cast, and will [i]always critically strike[/i]. You should cast this in order to avoid capping on Soul Shards, when you have trinket procs, or when a fight's mechanics require a mob to die very quickly. (In such a situation you should save Chaos Bolts so you can cast many into the high-priority add so it dies in time)
+Chaos Bolt is your single-target/cleave Soul Shard spender. Chaos Bolt costs 2 Soul Shards to cast, and will [i]always critically strike[/i]. You should cast this in order to avoid capping on Soul Shards, when you have trinket procs, or when a fight's mechanics require a mob to die very quickly. (In such a situation you should save Chaos Bolts ahead of time, so you can cast as many as possible into the high-priority add so it dies in time)
 
 Since Chaos Bolt always critically strikes (crits), it has the special property that your crit chance will increase the damage that it deals. 1% crit will increase the damage of your Chaos Bolt by 1%. This in effect compensates for the reduction in value Crit would have as a stat due to auto-crit. Your Chaos Bolt will deal an additional Y% damage, where Y is your crit %.
 [/indent]
@@ -113,15 +113,15 @@ Warning, theorycrafting below:
 
 For the purposes of this theorycrafting, we can ignore all stats because they have a symmetrical affect on the damage of both spells. Mastery increases both, Haste has no impact on Damage done for both, Crit increases the damage of both by the same amount (due to CB's crit scaling). Versatility is also symmetrical. Thus, we can drop them from our calculations, and all we need to care about is % Spellpower:
 
-Rain of Fire deals 400% Spellpower over 8 ticks. Therefore, each tick does 50% Spellpower as damage.
-Chaos Bolt deals 330% Spellpower. Due to auto-crit it will always deal 660% Spellpower.
+Rain of Fire deals 444% Spellpower over 8 ticks. Therefore, each tick does 55.5% Spellpower as damage.
+Chaos Bolt deals 366.3% Spellpower. Due to auto-crit it will always deal 732.6% Spellpower.
 
 However, we have one more complication, in that RoF consumes 3 Soul Shards to Chaos Bolt's 2. Therefore, for the cost of 1 Rain of Fire we could cast 1.5 Chaos Bolts. Thus, we need to apply this modifier to Chaos Bolt so we're on even-terms per Soul Shard consumed. Now:
 
-RoF deals  50% SP per Tick for 3 Soul Shards
-CB "deals" 990% SP for 3 Soul Shards
+RoF deals  55.5% SP per Tick for 3 Soul Shards
+CB "deals" 1098.9% SP for 3 Soul Shards
 
-Thus, 990/50 is the number of ticks required for RoF to come out ahead. This comes out to be 19.8 ticks. Since we know RoF ticks 8 times, and we need 19.8 ticks, we need 19.8/8 targets for all 7 ticks for RoF to come out ahead.
+Thus, 1098.9/55.5 is the number of ticks required for RoF to come out ahead. This comes out to be 19.8 ticks. Since we know RoF ticks 8 times, and we need 19.8 ticks, we need 19.8/8 targets for all 7 ticks for RoF to come out ahead.
 
 Thus, we need [b]2.475[/b] targets present for all 8 ticks of a Rain of Fire for RoF to be better than an un-Havoc'd Chaos Bolt. [I]This in effect means that RoF is better if you have 2 targets present for the entire RoF, and a third target present for at least half of the duration.[/I]
 [/indent]
@@ -135,7 +135,7 @@ Incinerate is only a filler spell for when you have nothing better to do. It doe
 
 [url=http://www.wowdb.com/spells/688-summon-imp]Summon Imp[/url]
 [indent]
-The Imp is your favorite demon friend in all circumstances, provided you don't need the utility provided by other pets. Each [url=http://www.wowdb.com/spells/3110-firebolt]Firebolt[/url] deals 82% of Player Spellpower per cast. [b]It deals 50% additional damage if the target is Immolated[/b]. It is this increased damage that makes him the preferred pet for Destro.
+The Imp is your favorite demon friend in all circumstances, provided you don't need the utility provided by other pets. Each [url=http://www.wowdb.com/spells/3110-firebolt]Firebolt[/url] deals 100% of Player Spellpower per cast. [b]It deals 50% additional damage if the target is Immolated[/b]. It is this increased damage that makes him the preferred pet for Destro.
 
 Our Imp-friend will never drop under 100 Fel Energy while auto-casting, so that you can use his utility on-demand without worry for energy cost.
 [/indent]
@@ -143,7 +143,7 @@ Our Imp-friend will never drop under 100 Fel Energy while auto-casting, so that 
 
 [url=http://www.wowdb.com/spells/80240-havoc]Havoc[/url]
 [indent]
-Havoc is [i]the[/i] spell that makes Destro. Havoc will duplicate [b]every single target spell[/b] cast on one target to the target afflicted with Havoc. This includes Immolate, Incinerate, Chaos Bolt, Conflag, Channel Demonfire, and Shadowburn. This [i]does not[/i] include Drain Life, Rain of Fire, or Dimensional Rift.
+Havoc is [i]the[/i] spell that makes Destro. Havoc will duplicate [b]every single target spell[/b] cast on one target to the target afflicted with Havoc. This includes Immolate, Incinerate, Chaos Bolt, Conflag, Channel Demonfire, Mortal Coil, and Shadowburn. This [i]does not[/i] include Drain Life, Rain of Fire, or Dimensional Rift.
 
 The optimal way to use Havoc is to cast the best possible spells during those 8 seconds. Typically this is all the Chaos Bolts you can fit in, as it in-effect [i]doubles[/i] the damage that those two Soul Shards dealt, since you basically cast [i]two[/i] Chaos Bolts for the price of one. This is what makes Havoc incredibly potent, as it allows you to get additional benefit out of your limited resources.
 
@@ -155,7 +155,7 @@ Havoc is essentially the primary way for you to optimize your damage. [B]Playing
 [indent]
 Summon Doomguard is your single-target 3-minute cooldown. It lasts for 25 seconds, and for those 25 seconds it casts [url=http://www.wowdb.com/spells/85692-doom-bolt]Doom Bolt[/url]. It shares a CD with Summon Infernal.
 
-Doom Bolt costs the pet 35 energy, and does 190% Player Spellpower per cast, and benefits from all Player stats. [b]Doombolt has the special property that it deals 20% increased damage to targets under 20% health.[/b] Doom Bolt is slightly net-energy negative, however it is highly unlikely that Fel Energy is ever the limiting factor on the number of Doom bolts cast per summon. 
+Doom Bolt costs the pet 35 energy, and does 275% Player Spellpower per cast, and benefits from all Player stats. [b]Doombolt has the special property that it deals 20% increased damage to targets under 20% health.[/b] Doom Bolt is slightly net-energy negative, however it is highly unlikely that Fel Energy is ever the limiting factor on the number of Doom bolts cast per summon. 
 
 Since Haste affects the cast time of Doom Bolt like it does other spells, there are special Haste breakpoints where Doomguard will get in an extra cast within the 25 seconds. Doomguard gets an additional Doom Bolt cast every 12% haste, starting after 9 casts at 8%. 
 
@@ -171,23 +171,14 @@ H for 10 ticks = 20%
 
 [url=http://www.wowdb.com/spells/1122-summon-infernal]Summon Infernal[/url]
 [indent]
-Summon Infernal is your AoE 3-minute cooldown, sharing CD with Summon Doomguard. It lasts for 25 seconds, and for those 25 seconds it melees one target, and pulses [url=http://www.wowdb.com/spells/19483-immolation]Immolation[/url], dealing 45% Player Spellpower per unit hit to all enemies within range every 2 seconds. Time between pulses is affected by Haste. It also deals 50% damage when the Infernal initially lands. It also melees _one_ target for 38.88% Player Spellpower on the same interval as Immolation.
+Summon Infernal is your AoE 3-minute cooldown, sharing CD with Summon Doomguard. It lasts for 25 seconds, and for those 25 seconds it melees one target, and pulses [url=http://www.wowdb.com/spells/19483-immolation]Immolation[/url], dealing 65% Player Spellpower per unit hit to all enemies within range every 2 seconds. Time between pulses is affected by Haste. It also deals 50% damage when the Infernal initially lands. It also melees _one_ target for 38.88% Player Spellpower on the same interval as Immolation.
 
-Summon Infernal is a better use of the CD if there are [b]at least 2 targets[/b] for the full duration.
+[b]An incredibly important portion of Summon Infernal comes in the form of the artifact talent Lord of Flames.[/b] Once every 10 minutes, when you cast Summon Infernal Lord in Flames will activate, summoning 3 extra smaller infernals. [b]With Lord of Flames available, Summon Infernal will do more damage than Summon Doomguard.[/b] More information about this can be found in the Artifact Talent section, where I go over Lord of Flames in more detail.
 
+Summon Infernal is a better use of the CD if there are [b]at least 3 targets[/b] for the full duration.
 
-Theorycrafting below:
-
-Since we know that every stat but Haste affects the damage Doomguard and Infernal symetrically, we can focus on Haste and on % Spellpower done per cast.
-
-We know that Doomguard casts for 190% Spellpower. We also know that the number of casts it gets per CD is Floor(25/(3/(1+H))) (refer to the Summon Doomguard theorycrafting section). 
-Thus Doomguard deals [b][190*(Floor(25/(3/(1+H))))] % Spellpower[/b] over its duration.
-
-We know that Infernal deals 50% Spellpower on first hit to every target, and then 45% Spellpower per unit every 2 seconds, affected by Haste. We know that it also does damage to one target equal to 38.88% Spellpower every 2 seconds, affected by Haste. 
-
-Thus, per X targets, we know Infernal does [b][50X + 45X*(Floor(25/(2/(1+H)))) + 38.88*(Floor(25/(2/(1+H))))] % Spellpower[/b] over its duration.
-
-Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant nature of using Floor to determine casts done, the math doesn't work out evenly for all values of H. However, for basically every value of H, [b]Infernal is as good or better than Doomguard with 2 targets.[/b]
+If you'd like to experiment yourself, you can make a copy of this spreadsheet which outlines how I came to the above conclusion:
+[b][url=https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit#gid=2007338505]Doomguard vs Infernal - Brusalk - Destro Warlock Spreadsheets[/url][/b]
 [/indent]
 
 
@@ -204,76 +195,96 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
   [hr][/hr]
   [b]Tier 1[/b]
+
+  Backdraft is a solid passive choice, but Roaring Blaze is better for single target and cleave fights. Shadowburn may be good for fights with many adds, but most of its' benefit lies in shard generation, which is something Destro has in abundance in such situations.
+
   [url=http://www.wowdb.com/spells/196406][color=#3a7ec4]Backdraft[/color][/url]
     [indent]
-      Backdraft causes your Conflag to reduce the casting time of all Incinerates, Chaos Bolts, and Channel Demonfires cast within the next 5 seconds by 30%. The buff does not pandemic, and its' duration is reduced by your Haste. In practice, Backdraft works out to be 2 hasted Chaos Bolts or 3 hasted Incinerates, regardless of your Haste.
+      Backdraft causes your Conflag to reduce the casting time of the next two Chaos Bolts or Incinerates you cast by 30%. It does this by giving you two charges of a 10 second buff which reduces the cast time of your next Incinerate or Chaos Bolt by 30%. You can store up to 4 charges of this buff.
 
-      In terms of the damage output Backdraft provides, it provides you the time to cast about one extra Incinerate for every Backdraft. Thus, it gives you roughly 210% Spellpower every (12/(1+H)) seconds, assuming you don't clip the Backdraft buff.
+      The best way to consume charges of Backdraft is with Chaos Bolt, since you will get more absolute time off than if you'd consumed it with Incinerate. Since each Conflag will give you two charges of Backdraft, best case each Conflag gives you a 60% refund of the cast time of a Chaos Bolt. Without Reverse Entropy, this works out to be about one extra Incinerate per Conflag cast.
 
-      [b]This is a pure-single target talent.[/b] It is also an option if you are looking for a passive talent on this tier. 
+      [b]This talent is worse than Roaring Blaze theoretically, however RB enforces a lot of rigidity to the rotation. This talent remains strong for fights where RB does not line up well, or if you are not the best at properly executing the Roaring Blaze rotation.[/b] It is also an option if you are simply looking for a passive talent on this tier. 
       
       You can use this [url=https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit?usp=sharing]RB vs Backdraft Single Target Spreadsheet[/url] to look at damage benefit from each talent as Haste changes.
     [/indent]
 
-  [url=http://www.wowdb.com/spells/205184][color=#c89a1e]Roaring Blaze[/color][/url]
+  [url=http://www.wowdb.com/spells/205184][color=#3a7ec4]Roaring Blaze[/color][/url]
     [indent]
-      Roaring Blaze causes your Conflagrate casts on a target with Immolate to increase the [i]remaining[/i] damage of that Immolate by 25%.  This damage bonus is lost if you refresh Immolate early (even within Pandemic range!), or when Immo expires. 
+      Roaring Blaze causes your Conflagrate casts on a target with Immolate to increase the [i]remaining[/i] damage of that Immolate by 25%. This damage bonus is lost if you refresh Immolate early (even within Pandemic range!), or when Immo expires. 
 
       [b]The damage bonus stacks multiplicatively[/b]. This means that two back-to-back Conflags on an Immolate will increase the damage of the Immolate by [b]56.25%[/b]. This adds up extremely quickly once you get to 3 or 4 Conflags per Immolate, where even 3 Conflags is an increase of 95.3%!
 
       This Talent has good synergy with Wreak Havoc, as it lets you double the benefit of this talent by keeping two RB-buffed Immolates up, which is what helps rank this talent as a Cleave talent. 
 
-      [b]This talent is firmly a cleave talent. Backdraft is better than RB for single-target-only fights.[/b] The damage provided by this talent scales [i]exceptionally[/i] well with extra Haste, making this talent especially potent during Bloodlust/Hero where you can get 3, 4, or 5 Conflags off inside the duration of one Immolate.
+      [b]This talent is [i]both[/i] a single target and a cleave talent.[/b] The damage provided by this talent scales [i]exceptionally[/i] well with extra Haste, making this talent especially potent during Bloodlust/Hero where you can get 3, 4, or 5 Conflags off inside the duration of one Immolate.
 
       You can use this [url=https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit?usp=sharing]RB vs Backdraft Single Target Spreadsheet[/url] to look at damage benefit from each talent as Haste changes.
     [/indent]
 
-  [url=http://www.wowdb.com/spells/17877-shadowburn][color=#a96262]Shadowburn[/color][/url]
+  [url=http://www.wowdb.com/spells/17877-shadowburn]Shadowburn[/url]
     [indent]
-      Shadowburn is an alternative Soul Shard spender to Chaos Bolt and Rain of Fire, but its' [b]primary purpose is as a source of Soul Shard generation[/b]. Since it generates 2 Soul Shards if the target dies within 5 seconds, you'll gain 1-net Shard. 
+      Shadowburn is a replacement Soul Shard generator that replaces Conflagrate. Shadowburn functions identically to Conflagrate and benefits/utilizes all bonuses which use Conflagrate. However, it deals extra damage (315% SP instead of 267% SP). In addition, [b]it will also generate an additional shard [i]if the target hit dies within 5 seconds[/i][/b].
 
-      Shadowburn is duplicated by Havoc, and the debuff it applies is applied to both the primary target, as well as the Havoc'd target. This means a Havoc'd Shadowburn on two adds that die within 5 seconds [i]will generate 3-net shards[/i], since it cost one and generated 4. 
+      Shadowburn is duplicated by Havoc, and the debuff it applies is applied to both the primary target, as well as the Havoc'd target. This means a Havoc'd Shadowburn on two adds that die within 5 seconds [i]will generate [b]three[/b] shards[/i], since it generated one shard instantly, and then two more shards when the adds die.
 
-      [b]This talent is likely better than Roaring Blaze for any fight that has more than a few adds.[/b] One key feature of Shadowburn is that it does not require the target to yield Experience or Honor, so [b]even level 1 critters will let you generate a shard.[/b]
+      [b]This talent may be better than other options for a fight that has more than a few adds.[/b] One key feature of Shadowburn is that it does not require the target to yield Experience or Honor, so [b]even level 1 critters will let you generate two shards.[/b]
     [/indent]
 
 
   [hr][/hr]
   [b]Tier 2[/b]
+
+  Empowered Life Tap is the best all-around pick. Reverse Entropy is a great quality-of-life choice (for less damage potential). Eradication can be good on sustained Cleave fights.
+
   [url=http://www.wowdb.com/spells/205148-reverse-entropy][color=#3a7ec4]Reverse Entropy[/color][/url]
     [indent]
-      Reverse Entropy is a simple passive talent that reduces the cast time of CB and RoF by 0.5 seconds, and causes them to generate 35% max mana when cast.
+      Reverse Entropy is a simple passive talent that reduces the cast time of CB by 0.5 seconds, and causes Chaos Bolt and Rain of Fire to generate 35% max mana when cast.
 
       This talents' damage benefit comes from the saved globals on [url=http://www.wowdb.com/spells/1454-life-tap]Life Tap[/url] due to the mana regen, as well as the extra globals freed by the cast-time reduction.
 
-      In practice, these globals work out to be sub-par compared to Mana Tap, and makes this the worst talent on the tier.
+      In practice, these globals work out to be sub-par compared to Empowered Life Tap, and makes this the worst talent on the tier. This talent is a big quality of life change though, as shorter Chaos Bolts and little-to-no Life Tapping makes the rotation a lot simpler.
     [/indent]
 
-  [url=http://www.wowdb.com/spells/152108-cataclysm][color=#a96262]Cataclysm[/color][/url]
+  [url=http://www.wowdb.com/spells/196412][color=#c89a1e]Eradication[/color][/url]
     [indent]
-      Cataclysm is the AoE option on this talent tier, and has the special property that it applies Immolate to all targets hit in addition to the significant damage done initially. This yields the fastest AoE ramp-up Destro can muster in combination with Rain of Fire, sustained by the Immolates. 
+      Eradication causes your Chaos Bolt to apply a 6 second debuff to the target [b]when it hits[/b]. While the debuff is present, any spell that is cast during its' duration will deal 12% increased damage. This debuff [b]can not[/b] pandemic. 
 
-      [b]Cataclysm is the best talent choice of the tier by far for most circumstances.[/b] It is arguably better than Mana Tap for two-target Cleave, depending on other synergistic talent choices, and gets better the more targets are present. 
+      It's important to realize that the damage buff is applied to any spell that finishes casting while the debuff is on the target. A spell which finishes casting during the debuff, and due to travel time hits after the debuff expires [b]does benefit[/b] from the debuff.
+      
+      [b]This talent is good on cleave fights[/b] since the debuff is also applied by Havoc'd Chaos Bolts. Optimal use of this talent revolves around spacing out Chaos Bolts and keeping the debuff up on the target as much as possible. Since the debuff does not pandemic you should aim to cast a Chaos Bolt such that it ends at the last possible moment of the Eradication debuff. This way you keep maximum uptime on the debuff while benefiting from the increased damage on your Chaos Bolts.
     [/indent]
 
-  [url=http://www.wowdb.com/spells/196104][color=#3a7ec4]Mana Tap[/color][/url]
+  [url=http://www.wowdb.com/spells/235157][color=#3a7ec4]Empowered Life Tap[/color][/url]
     [indent]
-      Mana Tap is the jack-of-all-trades talent choice on this tier as a flat 10% increased damage maintanence buff. Optimal play with this talent entails staying at the lowest possible mana levels so that the mana consumed is reduced. Improper play with this talent is extremely punishing.
+      Empowered Life Tap causes your Life Taps to give you a buff that increases your damage dealt by 10% for 20 seconds.
 
-      [b]Mana Tap is better than the other talents in the tier for single-target fights. Two-target cleave is dependant on other talent choices like Roaring Blaze and Wreak Havoc.[/b]
+      ELT is the jack-of-all-trades talent choice on the tier, as it's a flat 10% damage buff. [b]It is the best single target choice on this tier, and remains strong for cleave fights. For AoE fights it also is the best option as it affects AoE damage.[/b]
     [/indent]
 
 
   [hr][/hr]
   [b]Tier 3[/b]
-  [url=http://www.wowdb.com/spells/219272]Demon Skin[/url]
+
+  Situational -- Demonic Circle has largest DPS potential, as less movement means more spells cast. Shadowfury is great dungeon utility.
+
+  [url=http://www.wowdb.com/spells/48018]Demonic Circle[/url]
     [indent]
-      Destro has a passive called Soul Leech, which causes your single-target damage done (you and minions) to grant you an absorb shield for 10% of the damage dealt, stacking up to 15% of max health. Demon Skin increases the maximum health limit to 20%, and [b]also[/b] causes you to passively generate 1% of your max health as an absorb per second. [b]This is a massive amount of mitigation[/b], and makes this the best talent of the tier by far, unless you need the utility of Shadowfury.
+      Demonic Circle allows you to place a portal on the ground. Once placed, activating the ability again will instantly teleport you on top of the Demonic Circle on a 30 second cooldown.
+
+      This works well for fights where you know you need to be at a specific location (or get out of an ability) very quickly. You can use this to save on required movement pretty heavily, which can be a big DPS gain.
+
+      I [b]highly[/b] recommend using the following macro with this talent, which will allow you to replace your active portal at any time (use the normal ability only to port to the active circle):
+      [code]
+        #showtooltip Demonic Circle
+        /cancelaura Demonic Circle
+        /cast Demonic Circle
+      [/code]
     [/indent]
 
   [url=http://www.wowdb.com/spells/6789]Mortal Coil[/url]
     [indent]
-      Mortal Coil incapacitates the target for 3 seconds, and heals you for 11% of your maximum health. Unfortunately, [b]this does not work on boss mobs[/b], and you [b]won't heal if used on a boss[/b]. 
+      Mortal Coil incapacitates the target for 3 seconds, and heals you for 11% of your maximum health. Unfortunately, [b]this does not work on boss mobs[/b], and you [b]won't heal if used on a boss[/b]. This spell can be Havoc'd!
 
       Unless you really need a 3 second incapacitate, this is by far the worst talent of the tier as Demon Skin massively out-heals, and Shadowfury is a shorter cooldown AoE stun for a longer duration.
     [/indent]
@@ -285,14 +296,16 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
 
   [hr][/hr]
+  
   [b]Tier 4[/b]
-  [url=http://www.wowdb.com/spells/196412][color=#3a7ec4]Eradication[/color][/url]
-    [indent]
-      Eradication causes your Chaos Bolt to apply a 6 second debuff to the target [b]when it hits[/b]. While the debuff is present, any spell that hits during its' duration will deal 12% increased damage. This debuff can pandemic. 
 
-      It is critical to releize that the damage buff is only applied to spells that actually hit the target while the debuff is up. A spell which was finished casting, but due to travel time hits after the debuff expires [i]does not benefit[/i].
-      
-      [b]This talent is great for single-target and cleave fights[/b] since the debuff is also applied by Havoc'd Chaos Bolts. Optimal use of this talent revolves around spacing out Chaos Bolts and keeping the debuff up on the target as much as possible. 
+    Catacylsm is best choice in burst AoE situations. Fire and Brimstone is great for AoE potential in dungeons. Soul Harvest is the best choice for predominately single target fights.
+
+    [url=http://www.wowdb.com/spells/152108-cataclysm][color=#a96262]Cataclysm[/color][/url]
+    [indent]
+      Cataclysm is the AoE option on this talent tier, and has the special property that it applies Immolate to all targets hit in addition to the significant damage done initially. This yields the fastest AoE ramp-up Destro can muster in combination with Rain of Fire, sustained by the Immolates. 
+
+      [b]Cataclysm is the best talent choice of the tier by far for most circumstances.[/b] It is arguably better than Fire and Brimstone (even for sustained AoE, depending on other synergistic talent choices) and gets better the more targets are present. 
     [/indent]
 
   [url=http://www.wowdb.com/spells/196408][color=#a96262]Fire and Brimstone[/color][/url]
@@ -304,63 +317,86 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
       [b]This talent is best for snap-AoE where no ramp-up-time is a desired trait.[/b] However, this talent is contrary to the normal AoE rotation where you should be spending all your time keeping Immolates up so you can maintain RoFs. Thus, this talent doesn't enhance normal AoE rotations, but instead [b]replaces[/b] it. 
     [/indent]
 
-  [url=http://www.wowdb.com/spells/196098][color=#a96292]Soul Harvest[/color][/url]
+  [url=http://www.wowdb.com/spells/196098][color=#3a7ec4]Soul Harvest[/color][/url]
     [indent]
-      Soul Harvest is an additional CD, increasing all the damage you and your pet do by 20% for 10 seconds. Additionally, every target afflicted by your Immolates [i]when you cast Soul Harvest, will increase the duration of the cooldown by 2 seconds, up to a maximum of 30 seconds. 
+      Soul Harvest is an additional CD, increasing all the damage you and your pet do by 20% for 15 seconds. Additionally, every target afflicted by your Immolates [i]when you cast Soul Harvest, will increase the duration of the cooldown by 2 seconds, up to a maximum of 35 seconds. [/i]
 
-      This is a talent that synergizes extremely well with Cataclysm, since Cataclysm will apply Immolate to everything, and then you can enjoy 20-30 seconds of 20% increased damage.
-
-      [b]This talent is best for all AoE situations where FnB isn't required.[/b] It synergizes with the normal AoE rotation, and provides an avenue for a significant priority-target damage increase when cast after Cataclysm.
+      [b]This is the single-target choice on the tier.[/b] However, the extended duration allows you to game extra damage by using Soul Harvest with multiple Immolates active.
     [/indent]
 
 
   [hr][/hr]
   [b]Tier 5[/b]
-    [indent] You want to take Dark Pact. [/indent]
 
+  Demon Skin/Dark Pact are both great survivability talents through mitigation. Lots of small hits -> Demon Skin. Big bursts of damage less than every minute -> Dark Pact. Burning Rush great if you need to dodge mechanics with the movement speed.
+
+  [url=http://www.wowdb.com/spells/219272]Demon Skin[/url]
+    [indent]
+      Destro has a passive called Soul Leech, which causes your single-target damage done (you and minions) to grant you an absorb shield for 10% of the damage dealt, stacking up to 15% of max health. Demon Skin increases the maximum health limit to 20%, and [b]also[/b] causes you to passively generate 1% of your max health as an absorb per second. [b]This is a massive amount of mitigation[/b] when there's lots of passive incoming damage to take over a spread out duration. (For example, the stacking damage taken debuff on Cenarius is trivialized by Demon Skin.)
+    [/indent]
+
+  [url=http://www.wowdb.com/spells/111400]Burning Rush[/url]
+    [indent]
+      Burning Rush is a toggle. When enabled, you lose 4% of your max health every second, but gain 50% movement speed. In addition, you are unable to be reduced to below 100% of normal movement speed. If you have to get somewhere else fast or dodge a mechanic, Burning Rush can help, but you'll take some damage in the process.
+    [/indent]
+
+  [url=http://www.wowdb.com/spells/108416]Dark Pact[/url]
+    [indent]
+      Dark Pact is another defensive CD. It sacrifices 20% of your demon's max health and gives you a shield for 400% of that health for 20 seconds on a 1 minute cooldown. 
+      
+      If you have no pet summoned, it will sacrifice 20% of [i]your[/i] current health instead, and gives you a shield for 80% of your current health.
+
+      This is a great choice of mitigation for fights where a big burst of damage is going to occur. This talent can make mechanics such as soaking Corrupted Breath on Helya significantly easier, as the shield can absorb most of the original damage on a very, very short CD.
+    [/indent]
 
   [hr][/hr]
   [b]Tier 6[/b]
-  [url=http://www.wowdb.com/spells/152107]Grimoire of Supremacy[/url]
+
+  GoServ-Imp for single target. GoSup-Infernal for sustained AoE. GoSup-Doomguard for a passive single target option. GoSac for dungeons.
+
+  [url=http://www.wowdb.com/spells/152107]Grimoire of Supremacy ([color=#3a7ec4]Doomguard[/color]/[color=#a96262]Infernal[/color])[/url]
     [indent]
       GoSup causes your Summon Doomguard and Summon Infernal spells to be permanent pets. This [i]replaces[/i] Summon Imp.
 
-      [b]This talent is only the best option if you specifically want a passive talent. It is worse than the other two options for damage output in all circumstances[/b]
+      [b]This talent is only the best option if you specifically want a passive talent. It is worse than the other two options for damage output in all circumstances.[/b] (But only barely behind GoServ for single target -- 1-2k DPS in pre-raid t19 gear)
     [/indent]
 
   [url=http://www.wowdb.com/spells/108501][color=#3a7ec4]Grimoire of Service[/color][/url]
     [indent]
-      GoServ gives you access to the ability to summon a second Imp for 25 seconds every 1.5 minutes. This Imp will deal 100% more damage than your normal pet Imp during those 25 seconds. Immolate also buffs the damage done by the Imp's Firebolt.
+      GoServ gives you the ability to summon a second Imp for 25 seconds every 1.5 minutes. This Imp will deal 100% more damage than your normal pet Imp during those 25 seconds. Immolate also buffs the damage done by this Imp's Firebolt.
 
       [b]This talent is the best option for single target fights.[/b]
     [/indent]
 
   [url=http://www.wowdb.com/spells/196098][color=#a96292]Grimoire of Sacrifice[/color][/url]
     [indent]
-      GoSac lets you sacrifice any demon to gain the GoSac buff. This buff causes your spells to have a 20 RPPM chance to proc [url=http://www.wowdb.com/spells/196099]Demonic Power[/url], which deals 100% Spell Damage as AoE around the target that took damage.
+      GoSac lets you sacrifice any demon to gain the GoSac buff. This buff causes your spells to have a 20 RPPM chance to proc [url=http://www.wowdb.com/spells/196099]Demonic Power[/url], which deals 75% Spell Damage as AoE around the target that took damage.
 
-      [b]GoSac is the best option for any fight with any number of consistent adds[/b].
+      [b]GoSac is only agood choice if you're looking for a petless option, as you'll take a significant nerf to your damage in doing so.[/b] Since it AoE's, a fight with a periodically high number of adds may be a good choice for GoSac, however if it's too consistent GoSup with Infernal will be better very quickly.
     [/indent]
 
 
   [hr][/hr]
   [b]Tier 7[/b]
-  [url=http://www.wowdb.com/spells/196410]Wreak Havoc[/url]
+
+  Wreak Havoc on any fight with at least 2 targets. Channel Demonfire for single target and any fight with important burst AoE damage windows. Soul Conduit only for sustained AoE fights.
+
+  [url=http://www.wowdb.com/spells/196410][color=#c89a1e]Wreak Havoc[/color][/url]
     [indent]
       Wreak Havoc makes Havoc last 20 seconds, and have no cooldown.
 
-      [b]This talent is the best option for 2-target cleave fights by far[/b]. Any fight with a significantly-high uptime on a second target for the whole fight will be a Wreak Havoc fight.
+      [b]This talent is the best option for 2-target cleave fights by far[/b]. Any fight with a significantly-high uptime on a second target for the fight will be a Wreak Havoc fight.
     [/indent]
 
-  [url=http://www.wowdb.com/spells/196447][color=#3a7ec4]Channel Demonfire[/color][/url]
+  [url=http://www.wowdb.com/spells/196447][color=#a96262]Channel Demonfire[/color][/url]
     [indent]
-      Channel Demonfire will launch 15 bolts of Fel Fire. Each bolt will randomly target [b]any[/b] target afflicted by your Immolate. [b]Regardless of the number of targets afflicted by Immolate, only 15 bolts will be shot out [i]total[/i][/b]. 
+      Channel Demonfire will launch 15 bolts of Fel Fire. Each bolt will randomly target [b]any[/b] target afflicted by your own Immolate. [b]Regardless of the number of targets afflicted by Immolate, only 15 bolts will be shot out [i]total[/i][/b]. Each Bolt also splashes to all nearby targets for half the damage of the bolt itself.
 
-      The cooldown is reduced by haste, and is unusable if no target is afflicted by Immolate. Additionally, if your last Immolate falls off mid-cast, Channel Demonfire will stop shooting out bolts. 
+      The cooldown is reduced by haste, and is unusable if no target is afflicted by Immolate. Additionally, if your last Immolate falls off mid-cast, Channel Demonfire will stop shooting out bolts (but continue channeling).
 
-      [b]Channel Demonfire will be duplicated by Havoc[/b]. Yes, that's right, Havoc will duplicate each Felbolt cast by Channel Demonfire. However, [b]do not have Havoc on a target affected by Immolate[/b]. Any bolts cast directly at the Havoc'd target will [b]not[/b] be duplicated. Thus, if you want to use Havoc and CDF, you should put Havoc on a target without Immolate so you get all 30 possible CDFs.
+      [b]Channel Demonfire will be duplicated by Havoc[/b]. Yes, that's right, Havoc will duplicate each Felbolt cast by Channel Demonfire. However, [b]do not have Havoc on a target affected by Immolate[/b]. Any bolts cast directly at the Havoc'd target will [b]not[/b] be duplicated. Thus, if you want to use Havoc and CDF, you should put Havoc on a target without Immolate so you get all 30 possible CDF ticks. [i]At the moment, the AoE portion of CDF is also being duplicated to the Havoc target, but this is likely a bug and will get fixed.[/i]
 
-      [b]This talent is the best option for single target fights, roughly tied with Soul Conduit.[/b]
+      [b]This talent is the best option for single target fights, providing significantly more damage than Soul Conduit single target, as well as being the burst AoE option on the tier.[/b]
     [/indent]
 
   [url=http://www.wowdb.com/spells/215941][color=#a96262]Soul Conduit[/color][/url]
@@ -369,7 +405,7 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
       
       This chance is [i]independant[/i] between Soul Shards spent. Thus, you have a 4% chance to have a full-refund of a Chaos Bolt. You also have a 32% chance to get one Soul Shard Refund and a 64% chance to get no refund.
 
-      [b]This talent is the best option for single target fights (tied with CDF), as well as AoE fights (due to RoF refund).[/b]
+      [b]This talent may only be a good choice for sustained AoE fights, as Channel Demonfire remains a strong choice for both single target and burst AoE windows.[/b]
     [/indent]
 [/indent]
 
@@ -381,13 +417,13 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
 [indent]
 
-  I plan on doing more theorycrafting in the area of desired stats on a per-talent basis, but general consensus right now is [b]Haste >> Crit > Vers >= Mastery[/b].
+  I plan on doing more theorycrafting in the area of desired stats on a per-talent basis, but general consensus right now is [b]Haste >= Crit == Vers >= Mastery[/b].
 
   Haste provides the best bang-for-your-buck in terms of Soul Shard generation, as well as damage output, due to more Immolate ticks (more shards), and a lower Conflag CD (more shards).
 
   Crit comes in second due to its' impact on Soul Shard generation via Immolate.
 
-  Vers and Mastery are close in third, but Vers is generally better due to its consistency between pulls. While the Mastery will average out over the course of a significant number of attempts, you will have bad attempts where mastery provides little benefit, and just as many attempts where mastery is of massive benefit. Since Vers provides a similar benefit in damage done and damage taken reduction, it's a better choice where available.
+  Vers and Mastery are close in third, but Vers is generally better due. As a secondary effect, verse will yield more consistency between pulls. While the Mastery will average out over the course of a significant number of attempts, you will have bad attempts where mastery provides little benefit, and just as many attempts where mastery is of massive benefit. Since Vers provides a similar benefit in damage done and damage taken reduction (while also being more consistent pull-to-pull), it's a better choice where available.
 [/indent]
 
 
@@ -435,38 +471,31 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
     [*]Fill with normal rotation
     [*]Cast a third Conflag off cooldown
     [*]Refresh Immolate at the last possible second of the buff to maintain the RB buffed Immolate as long as possible
-    [*]When you're about to cap on your 2nd Conflag charge, Immolate (goes to 24 second duration), and go to 2.
-  [/LIST]
-
-  [b]Mana Tap[/b]
-  [LIST]
-    [*]Minimize your mana-cost by keeping your mana as low as possible
-    [*]Life Tap only when you're below ~20% mana
-    [*]Maintain the Mana Tap buff as much as possible
+    [*]When you're about to cap on your 2nd Conflag charge, Immolate (goes to 24 second duration), and go to step 2.
   [/LIST]
 
   [b]Eradication[/b]
   [LIST]
-    [*]You should aim to land a Chaos Bolt at the last possible second of the previous Eradication buff.
-    [*]You should try to maintain this buff as long as possible. Once you run out of shards to maintain the debuff, save up to 4 shards to repeat the process again
+    [*]You should aim to finish casting a Chaos Bolt at the last possible second of the previous Eradication buff.
+    [*]You should try to maintain this buff as long as possible. Once you run out of shards to maintain the debuff, save up to 4 shards before you try to repeat the process again. This maximizes uptime and the number of Chaos Bolts that benefit from the buff.
   [/LIST]
 
   [b]Soul Harvest[/b]
   [LIST]
-    [*]You should aim to get as many Immolates up as possible before casting Soul Harvest to maximize the duration of the buff
+    [*]You should aim to get as many Immolates up as possible before casting Soul Harvest to maximize the duration of the buff ([b]Do this [i]before[/i] it comes off CD![/b])
   [/LIST]
 
   [b]Wreak Havoc[/b]
   [LIST]
     [*]You should maintain 100% uptime on Havoc on at least one mob whenever there is an extra target available
-    [*]Maintain your single-target rotation on the Primary target and revel in the cleave damage
+    [*]Maintain your single-target rotation on the Primary target and revel in the glorious cleave damage
   [/LIST]
 
   [b]Channel Demonfire[/b]
   [LIST]
     [*]Ensure you have at least one Immolate up for the full duration of the Channel before CDF comes off cooldown
     [*]While Chaos Bolt is a better use of Havoc up-time, if you have no Soul Shards you can Havoc another target and then CDF.
-    [*]If you are Havoc'ing CDF, [b]make sure that you Havoc a target that does [i]not[/i] have Immolate. Havoc will [i]not[/i] duplicate any bolts that go at the Havoc'd target, so you will lose damage output.
+    [*]If you are Havoc'ing CDF, [b]make sure that you Havoc a target that does [i]not[/i] have Immolate.[/b] Havoc will [i]not[/i] duplicate any bolts that go at the Havoc'd target, so you will lose damage output.
   [/LIST]
 
 [/indent]
@@ -482,6 +511,7 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
     [*]Capping on Soul Shards is a massive damage loss. Never let yourself reach the cap of 5 Soul Shards unless required due to fight-mechanics
     [*]Misusing or under-utilizing Havoc is a [i]huge[/i] source of lost damage
     [*]Due to highly-limited mobility, micro-optimizing movement required during fights is very important for your damage output. Try to time out required movement with your availablity to cast instants like Havoc and Conflag. If not required elsewhere, utilize your short-CD on Dark Pact/Unending Resolve to soak damage that would lesser classes to move. If you are able to avoid movement by proper utilization of CDs, you're turning those defensive CDs into damage.
+    [*]Roaring Blaze is very punishing if you mess it up, and forces a lot of rigidity into the rotation. While learning fights you may be better off taking Backdraft, as it requires less thought and you can focus on learning the fight.
   [/LIST]
 [/indent]
 
@@ -493,13 +523,16 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
 [indent]
   [list=1]
-    [*]Pre-cast Incinerate (travel time causes it to land )
+    [*]Pre-cast Chaos Bolt (travel time causes it to land as Immolate lands)
     [*]Pre-cast Immolate (Pulls boss)
     [*]2nd Immolate (if Roaring Blaze)
+    [*]Dimensional Rift (3rd Charge)
     [*]Conflag
-    [*]Conflag
+    [*]Conflag (If not Backdraft)
+    [*]Summon GoServ: Imp (If GoServ)
     [*]Summon Doomguard
-    [*]Summon GoServ: Imp (if GoServ)
+    [*]Life Tap (If Empowered Life Tap is taken)
+    [*]Soul Harvest
     [*]On-Use Trinkets/Cooldowns if applicable
     [*]Normal Rotation
   [/list]
@@ -521,25 +554,31 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
   [b]Sets - T19 - Clutch of Azj'Aqir[/b]
   [LIST]
-    [*][url=http://www.wowdb.com/spells/212017-item-warlock-t19-destruction-2p-bonus]Item - Warlock T19 Destruction 2P Bonus[/url] - Conflag gains a third charge and a 3-second reduced CD.
-    [*][url=http://www.wowdb.com/spells/212018-item-warlock-t19-destruction-4p-bonus]Item - Warlock T19 Destruction 4P Bonus[/url] - Chaos Bolt casts reduces the cast time of the next Chaos Bolt within 2 seconds by 20%.
+    [*][url=http://www.wowdb.com/spells/212018-item-warlock-t19-destruction-2p-bonus]Item - Warlock T19 Destruction 2P Bonus[/url] - Chaos Bolt casts reduces the cast time of the next Chaos Bolt within 2 seconds by 30%.
+    [*][url=http://www.wowdb.com/spells/212017-item-warlock-t19-destruction-4p-bonus]Item - Warlock T19 Destruction 4P Bonus[/url] - Conflag gains a third charge and a 3-second reduced CD.
   [/LIST]
+  [indent]
+    While the 2pc provides only a small bonus on its own, the 4pc provides a significant boost! A third charge and reduced CD drastically increases overall Shard generation, as well as makes Roaring Blaze even better than it already is. With lust we can obtain upwards of 7 Conflag Casts per Immolate!
+  [/indent]
 
   [b]Legendaries[/b]
   [LIST]
-    [*][url=http://www.wowdb.com/items/132444-prydaz-xavarics-magnum-opus][color=#ff8000]Prydaz, Xavaric's Magnum Opus[/color][/url] - 2nd Soul Leech
-    [*][url=http://www.wowdb.com/items/132407-magistrike-restraints][color=#ff8000]Magistrike Restraints[/color][/url] - 30% chance for Chaos Bolt to cleave. Massive cleave damage increase
+    [*][url=http://www.wowdb.com/items/132444-prydaz-xavarics-magnum-opus][color=#ff8000]Prydaz, Xavaric's Magnum Opus[/color][/url] - Basically a second Soul Leech. Gives you an extra abosrb shield for 25% of your max health every 30 seconds.
+    [*][url=http://www.wowdb.com/items/132407-magistrike-restraints][color=#ff8000]Magistrike Restraints[/color][/url] - 20% chance for Chaos Bolt to cleave. Massive cleave damage increase
     [*][url=http://www.wowdb.com/items/132357-pillars-of-the-dark-portal][color=#ff8000]Pillars of the Dark Portal[/color][/url] - Huge mobility buff for Destro with instant gateway cast and the ability to use it twice before CD.
-    [*][url=http://www.wowdb.com/items/132452-sephuzs-secret][color=#ff8000]Sephuz's Secret[/color][/url] - Can likely trigger from Mortal Coil, Shadowfury, Banish. Big movement speed buff and haste buff.
-    [*][url=http://www.wowdb.com/items/132375-odr-shawl-of-the-ymirjar][color=#ff8000]Odr, Shawl of the Ymirjar[/color][/url] - Makes your Havoc a single-target maintanence buff on the same level as Mana Tap. Increases the damage of your single-target spells by 8%. This does not affect Pet damage, Guardian Damage, or AoE damage like GoSac procs/RoF.
+    [*][url=http://www.wowdb.com/items/132452-sephuzs-secret][color=#ff8000]Sephuz's Secret[/color][/url] - Can trigger from Mortal Coil, Shadowfury, Banish, and Shadow Lock. Big movement speed buff and haste buff.
+    [*][url=http://www.wowdb.com/items/132375-odr-shawl-of-the-ymirjar][color=#ff8000]Odr, Shawl of the Ymirjar[/color][/url] - Increases the damage of your single-target spells by 8%. This does not affect Pet damage, Guardian Damage, or AoE damage like GoSac procs/RoF. With this legendary, if you have taken Wreak Havoc, your Havoc becomes a single-target maintanence buff on the same level as Empowered Life Tap. This legendary makes Wreak Havoc only slightly worse than Soul Conduit single target. Channel Demonfire remains the best single target talent however.
     [*][url=http://www.wowdb.com/items/132456-feretory-of-souls][color=#ff8000]Feretory of Souls[/color][/url] - Charred Remains 2.0. Massively increases Soul Shard generation in all situations. 
-    [*][url=http://www.wowdb.com/items/132455-norgannons-foresight][color=#ff8000]Norgannon's Foresight[/color][/url] - Significantly helps getting Chaos Bolt/RoF off in movement-intensive fights. Procs from Havoc, Conflag, and Shadowburn.
-    [*][url=http://www.wowdb.com/items/132460-alythesss-pyrogenics][color=#ff8000]Alythess's Pyrogenics[/color][/url] - Basically a 7% AoE buff. RoF gets better. Affects Immolate, Rain of Fire, Conflag, Incinerate.
+    [*][url=http://www.wowdb.com/items/132455-norgannons-foresight][color=#ff8000]Norgannon's Foresight[/color][/url] - Significantly helps getting Chaos Bolt/RoF off in movement-intensive fights.
+    [*][url=http://www.wowdb.com/items/132460-alythesss-pyrogenics][color=#ff8000]Alythess's Pyrogenics[/color][/url] - Basically a 7% AoE buff. RoF gets better. Affects Fire spells, such as Immolate, Rain of Fire, Conflag, Incinerate.
+    [*][url=http://ptr.wowdb.com/items/144369-lessons-of-space-time][color=#ff8000]Lessons of Space-Time[/color][/url] - While Dimensional Rift is active, you deal 10% more damage.
+    [*][url=http://ptr.wowdb.com/items/144259-kiljaedens-burning-wish][color=#ff8000]Kil'jaeden's Burning Wish[/color][/url] - On a 1.2 min CD, activates to deal massive AoE damage around the target
   [/LIST]
 
   [b]Gems[/b]
   [LIST]
-    [*]Use Haste Gems
+    [*]Use your one Intellect gem
+    [*]Use Haste Gems otherwise
   [/LIST]
 [/indent]
 
@@ -549,14 +588,14 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 [CENTER][IMG]http://i.imgur.com/pUAd9uK.png[/IMG][/CENTER]
 [anchor]artifact[/anchor]
 
-[center][img]http://i.imgur.com/cLdirga.png[/img][/center]
+[center][img]http://i.imgur.com/SXM457s.jpeg[/img][/center]
 
 [indent]
   We go to pick up [url=http://www.wowdb.com/spells/215273-impish-incineration]Impish Incineration[/url] ASAP as it is a significant buff to GoSac for Cleave/AoE. We also finish picking up [url=http://www.wowdb.com/spells/224103-lord-of-flames]Lord of Flames[/url] due to its significant usefulness in dungeons.
 
   Next we head to [url=http://www.wowdb.com/spells/219195-conflagration-of-chaos]Conflagration of Chaos[/url], primarily because of [url=http://www.wowdb.com/spells/196227-residual-flames]Residual Flames[/url], and it being the next closest Gold Trait. 
 
-  Finally, we head towards [url=http://www.wowdb.com/spells/219415-dimension-ripper]Dimension Ripper[/url] by way of [url=http://www.wowdb.com/spells/196258-fire-from-the-sky]Fire From the Sky[/url] and [url=http://www.wowdb.com/spells/196236-soulsnatcher]Soulsnatcher[/url]. Rain of Fire damage provides a greater damage bonus than Incinerate damage. Additionally, the Chaos Bolt shard-refund is worth significantly more than the reduced Incinerate cast time over the course of a fight.
+  Finally, we head towards [url=http://www.wowdb.com/spells/219415-dimension-ripper]Dimension Ripper[/url] by way of [url=http://www.wowdb.com/spells/196211-master-of-disaster]Master of Disaster[/url] and [url=http://www.wowdb.com/spells/196236-soulsnatcher]Soulsnatcher[/url]. Incinerate damage is used more generally than Rain of Fire, so overall should provide more benefit over Fire from the Sky. Additionally, the Chaos Bolt shard-refund is worth significantly more than the reduced Incinerate cast time over the course of a fight.
 
   [b]Special Mentions[/b]:
   [indent]
@@ -592,7 +631,7 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
   [b]WeakAuras[/b]
   [indent]
-    Extremely powerful addon that provides the ability to track buffs/debuffs/cooldowns/[i]literally anything[/i] if you put your mind to it. It is quite possibly the best and most useful addon ever created (besides maybe AVR in ICC). You can create entire UI replacements out of just WeakAuras.
+    Extremely powerful addon that provides the ability to track buffs/debuffs/cooldowns/[i]literally anything[/i] if you put your mind to it. It is quite possibly the most useful and flexible addon ever created (besides maybe AVR in ICC). You can create entire UI replacements out of just WeakAuras.
 
     [url=https://notsthoughts.wordpress.com/2016/07/25/weak-aura-hosting/]Not's Weakauas[/url] - A powerful set of WeakAuras that you can import for your use. Provides tracking for basically everything important.
   [/indent]
@@ -604,7 +643,12 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
   [b]EnemyGrid[/b]
   [indent]
-    Provides a convienient static-location for all nameplates that would be visible on your screen. This makes it easy to see DoT timers on every enemy in range. Also gives a great and easy way to cast spells like Havoc, Immolate, and Shadowburn on all targets in-range without having to resort to tab-targeting.
+    Provides a convienient static-location for all nameplates that would be visible on your screen. This makes it easy to see DoT timers on every enemy in range. 
+  [/indent]
+
+  [b]DoomShards[/b]
+  [indent]
+    A separate enhanced Soul Shard tracker for all Warlock specs. Shows you when you can expect future shards, and highlights shards that will be spent.
   [/indent]
 [/indent]
 
@@ -616,17 +660,12 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
 
 [indent]
   [LIST]
-    [*]Burning Embers are replaced with Soul Shards. No more emberbits. Maximum of 5, out-of-combat reduces to 1 Soul Shard.
-    [*]Immolate has a static chance to generate a full Soul Shard.
-    [*]Conflag always generates a full Soul Shard.
-    [*]Conflags CD is reduced by Haste.
-    [*]Many new talents
-    [*]Shadowburn is now a talent :(
-    [*]FnB is now a talent.
-    [*]Rain of Fire is now our method to AoE, and consumed Soul Shards.
-    [*]Rain of Fire does damage now.
-    [*]New weapon in the Scepter of Sargeras
-    [*]Mastery no longer buffs Ember-consumers, and now is a random chance to deal a random amount of increased damage up to a maximum. Also reduces damage taken by a random amount. RANDOM
+    [*]Shadowburn changed to replace Conflag, still generates extra shards on kill
+    [*]Eradication and Cataclysm changed talent tiers
+    [*]Demonic Circle and Demon Skin swapped talent tiers
+    [*]Channel Demonfire now AoEs
+    [*]GoSac nerfed, GoSup/GoServ significantly buffed
+    [*]Conflagrate changed mechanically back to buff with multiple stacks. Only affects next two Chaos Bolts or Incinerates, rather than a duration.
   [/LIST]
 [/indent]
 
@@ -688,6 +727,17 @@ Therefore, we need to know X, such that Infernal > Doomguard. Due to the variant
       [*]Changed Backdraft vs Roaring Blaze single-target talent discussion. After further analysis, Backdraft is better than RB for realistic levels of Haste. However, Roaring Blaze gains significant value when you can Havoc RB-buffed Immolates, so it's now classified as a cleave-talent.
       [*]Created [url=https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit?usp=sharing]RB vs Backdraft Single Target Spreadsheet[/url], to showcase how each talent scales as Haste changes.
       [*]Fixed erroneous claim that Backdraft doesn't scale with Haste
+    [/LIST]
+
+  [u][url=https://github.com/Brusalk/destro-guide/compare/v1.0.4...v1.1.0]1.1.0 (1/03/2017) - 7.1.5[/url][/u]
+    [LIST]
+      [*]Updated guide for Patch 7.1.5
+      [*]Large overhaul to talent section
+      [*]Corrected many inaccuracies resulting from changes in patches 7.1 and 7.1.5
+      [*]Added a few helpful macros
+      [*]Added DoomShards as a recommended addon
+      [*]Added a second spreadsheet which calculates whether Infernal or Doomguard is better for given Haste and Number of Targets: https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit#gid=2007338505
+      [*]Consolidated the spreadsheets into one Spreadsheet with multiple tabs -- Look at the bottom to change to the different sheets I've put together!
     [/LIST]
 [/indent]
 
