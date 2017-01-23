@@ -107,23 +107,23 @@ Rain of Fire is your AoE Soul Shard spender. It is also your only base-line way 
 
 Multiple Rain of Fires in the same location [b]stack[/b]. Each RoF will deal damage to the affected targets separately. They [i]do not[/i] share the same tick-time when they overlap. Essentially, each RoF is a separate DoT on each individual target within the affected area. (Note however, that they do not benefit from Pandemic like they used to.)
 
-Rain of Fire is a better use of your Soul Shards than an un-Havoc'd Chaos Bolt when you'll get [B]20 ticks[/B] out of it, or [b]2.5[/b] targets hit for the full duration. [b]If the Chaos Bolt is Havoc'd, then you'll need 40 ticks, or 5 targets hit for the full duration.[/b]
+Rain of Fire is a better use of your Soul Shards than an un-Havoc'd Chaos Bolt when you'll get [B]16.6 ticks[/B] out of it, or [b]2.075[/b] targets hit for the full duration. [b]If the Chaos Bolt is Havoc'd, then you'll need twice the previous numbers.[/b]
 
 Warning, theorycrafting below:
 
 For the purposes of this theorycrafting, we can ignore all stats because they have a symmetrical affect on the damage of both spells. Mastery increases both, Haste has no impact on Damage done for both, Crit increases the damage of both by the same amount (due to CB's crit scaling). Versatility is also symmetrical. Thus, we can drop them from our calculations, and all we need to care about is % Spellpower:
 
-Rain of Fire deals 444% Spellpower over 8 ticks. Therefore, each tick does 55.5% Spellpower as damage.
-Chaos Bolt deals 366.3% Spellpower. Due to auto-crit it will always deal 732.6% Spellpower.
+Rain of Fire deals 577.2% Spellpower over 8 ticks. Therefore, each tick does 72.15% Spellpower as damage.
+Chaos Bolt deals 399.237% Spellpower. Due to auto-crit it will always deal 798.534% Spellpower.
 
 However, we have one more complication, in that RoF consumes 3 Soul Shards to Chaos Bolt's 2. Therefore, for the cost of 1 Rain of Fire we could cast 1.5 Chaos Bolts. Thus, we need to apply this modifier to Chaos Bolt so we're on even-terms per Soul Shard consumed. Now:
 
-RoF deals  55.5% SP per Tick for 3 Soul Shards
-CB "deals" 1098.9% SP for 3 Soul Shards
+RoF deals  72.15% SP per Tick for 3 Soul Shards
+CB "deals" 1197.801% SP for 3 Soul Shards
 
-Thus, 1098.9/55.5 is the number of ticks required for RoF to come out ahead. This comes out to be 19.8 ticks. Since we know RoF ticks 8 times, and we need 19.8 ticks, we need 19.8/8 targets for all 7 ticks for RoF to come out ahead.
+Thus, 1197.801/72.15 is the number of ticks required for RoF to come out ahead. This comes out to be 16.6 ticks. Since we know RoF ticks 8 times, and we need 16.6 ticks, we need 16.6/8 targets for all 7 ticks for RoF to come out ahead.
 
-Thus, we need [b]2.475[/b] targets present for all 8 ticks of a Rain of Fire for RoF to be better than an un-Havoc'd Chaos Bolt. [I]This in effect means that RoF is better if you have 2 targets present for the entire RoF, and a third target present for at least half of the duration.[/I]
+Thus, we need [b]2.075[/b] targets present for all 8 ticks of a Rain of Fire for RoF to be better than an un-Havoc'd Chaos Bolt. [I]This in effect means that RoF is better if you have 2 targets present for the entire RoF, and a third target for one or two ticks.[/I]
 [/indent]
 
 
@@ -394,8 +394,6 @@ If you'd like to experiment yourself, you can make a copy of this spreadsheet wh
 
       The cooldown is reduced by haste, and is unusable if no target is afflicted by Immolate. Additionally, if your last Immolate falls off mid-cast, Channel Demonfire will stop shooting out bolts (but continue channeling).
 
-      [b]Channel Demonfire will be duplicated by Havoc[/b]. Yes, that's right, Havoc will duplicate each Felbolt cast by Channel Demonfire. However, [b]do not have Havoc on a target affected by Immolate[/b]. Any bolts cast directly at the Havoc'd target will [b]not[/b] be duplicated. Thus, if you want to use Havoc and CDF, you should put Havoc on a target without Immolate so you get all 30 possible CDF ticks. [i]At the moment, the AoE portion of CDF is also being duplicated to the Havoc target, but this is likely a bug and will get fixed.[/i]
-
       [b]This talent is the best option for single target fights, providing significantly more damage than Soul Conduit single target, as well as being the burst AoE option on the tier.[/b]
     [/indent]
 
@@ -494,8 +492,6 @@ If you'd like to experiment yourself, you can make a copy of this spreadsheet wh
   [b]Channel Demonfire[/b]
   [LIST]
     [*]Ensure you have at least one Immolate up for the full duration of the Channel before CDF comes off cooldown
-    [*]While Chaos Bolt is a better use of Havoc up-time, if you have no Soul Shards you can Havoc another target and then CDF.
-    [*]If you are Havoc'ing CDF, [b]make sure that you Havoc a target that does [i]not[/i] have Immolate.[/b] Havoc will [i]not[/i] duplicate any bolts that go at the Havoc'd target, so you will lose damage output.
   [/LIST]
 
 [/indent]
@@ -738,6 +734,12 @@ If you'd like to experiment yourself, you can make a copy of this spreadsheet wh
       [*]Added DoomShards as a recommended addon
       [*]Added a second spreadsheet which calculates whether Infernal or Doomguard is better for given Haste and Number of Targets: https://docs.google.com/spreadsheets/d/18drpvaRX_mUdXUMahJigeKz3INfu_4hPGbKpvjJJIm8/edit#gid=2007338505
       [*]Consolidated the spreadsheets into one Spreadsheet with multiple tabs -- Look at the bottom to change to the different sheets I've put together!
+    [/LIST]
+	
+  [u][url=https://github.com/Brusalk/destro-guide/compare/v1.1.0...v1.1.1]1.1.1 (1/22/2017) - 7.1.5[/url][/u]
+    [LIST]
+      [*]Channel Demonfire no longer AoEs
+	  [*]Rain of Fire, Chaos Bolt, and Catacylsm damage were all buffed in a hotfix. Adjusted in-guide theorycrafting to match new values.
     [/LIST]
 [/indent]
 
